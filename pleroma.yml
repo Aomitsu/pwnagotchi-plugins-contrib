@@ -1,0 +1,6 @@
+pleroma:
+  enabled: false
+  instance_url: ~
+  visibility: unlisted
+  username: ~
+  password: ~
