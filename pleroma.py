@@ -11,7 +11,7 @@ class PleromaStatus(plugins.Plugin):
     __author__ = 'maxime@s.echapp.com'
     __version__ = '1.0.0'
     __license__ = 'GPL3'
-    __description__ = 'Periodically post status updates. Based on mastodon plugin by siina@siina.dev who based this plugin on twitter plugin by evilsocket'
+    __description__ = 'Periodically post status updates on Pleroma. Based on mastodon plugin by siina@siina.dev who based this plugin on twitter plugin by evilsocket'
 
     def on_loaded(self):
         logging.info("pleroma plugin loaded.")
